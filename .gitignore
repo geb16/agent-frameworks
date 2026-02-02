@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables and secrets
+.env
+
+
+# ChromaDB vector store
+/db/
+
+# Streamlit and Python cache
+.streamlit/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+
+# Test, coverage, and build outputs
+dist/
+build/
+*.egg-info/
+coverage.xml
+htmlcov/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Ignore data if sensitive or large (uncomment if needed)
+# /data/
+# !/data/policies.txt
+# chroma-embeddings/
+chroma_db/
