@@ -1,4 +1,20 @@
-# lc_rag.py (modern version using Runnable RAG)
+
+"""
+lc_rag.py
+-------------
+Modern Retrieval-Augmented Generation (RAG) script for policy Q&A using LangChain, ChromaDB, and OpenAI.
+
+This script loads company policies, embeds them into a vector store, and answers questions using only the provided context.
+
+Usage:
+    python lc_rag.py
+
+References:
+    - https://python.langchain.com/docs/
+    - https://docs.trychroma.com/
+    - https://platform.openai.com/docs/
+    - https://docs.llamaindex.ai/
+"""
 
 from dotenv import load_dotenv
 
@@ -47,6 +63,15 @@ if not db.get().get('ids'):
 retriever = db.as_retriever(search_kwargs={"k": 3})
 
 def _format_docs(docs: list[Document]) -> str:
+    """
+    Concatenate the content of a list of Document objects, separated by double newlines.
+
+    Args:
+        docs (list[Document]): List of Document objects.
+
+    Returns:
+        str: Combined document content as a single string.
+    """
     return "\n\n".join(doc.page_content for doc in docs).strip()
 
 # Modern prompt format
@@ -74,8 +99,16 @@ rag_chain = (
 )
 
 def answer(question: str) -> str:
+    """
+    Answer a question using the RAG pipeline, returning a fallback if the answer is not found in context.
+
+    Args:
+        question (str): The user's question.
+
+    Returns:
+        str: The answer or a fallback message if not found in the knowledge base.
+    """
     result = rag_chain.invoke({"question": question})
-    # Fallback if the model cannot answer from context
     fallback_phrases = [
         "The context provided does not include",
         "I cannot answer the question based on the given context",
