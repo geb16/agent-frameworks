@@ -1,6 +1,19 @@
-# app.py
+
 """
-Streamlit RAG Chatbot (Policy Q&A)
+lc_app.py
+-------------
+Streamlit RAG Chatbot for policy Q&A using LangChain, ChromaDB, and OpenAI.
+
+This app loads company policies, embeds them into a vector store, and answers questions using only the provided context via a modern web interface.
+
+Usage:
+    streamlit run lc_app.py
+
+References:
+    - https://python.langchain.com/docs/
+    - https://docs.trychroma.com/
+    - https://platform.openai.com/docs/
+    - https://docs.llamaindex.ai/
 """
 
 from typing import List, Tuple
@@ -57,9 +70,11 @@ st.markdown(
 @st.cache_resource
 def get_rag_components() -> Tuple[Chroma, ChatOpenAI, ChatPromptTemplate, StrOutputParser]:
     """
-    Initialise embeddings, Chroma vector store, LLM and prompt.
+    Initialize and return the RAG components: Chroma vector store, LLM, prompt, and parser.
 
-    This runs once per app session thanks to @st.cache_resource.
+    Returns:
+        Tuple[Chroma, ChatOpenAI, ChatPromptTemplate, StrOutputParser]:
+            The vector store, language model, prompt template, and output parser.
     """
 
     load_dotenv()  # loads OPENAI_API_KEY and others from .env if present
@@ -118,16 +133,27 @@ Answer (be clear, concise and user-friendly):
 
 
 def format_context(docs: List[Document]) -> str:
+    """
+    Concatenate the content of a list of Document objects, separated by double newlines.
+
+    Args:
+        docs (List[Document]): List of Document objects.
+
+    Returns:
+        str: Combined document content as a single string.
+    """
     return "\n\n".join(doc.page_content for doc in docs).strip()
 
 
 def run_rag(question: str) -> Tuple[str, List[Document]]:
     """
-    Execute a single RAG round trip:
-    - Retrieve documents
-    - Build context
-    - Run prompt + LLM
-    - Return answer + source docs
+    Execute a single RAG round trip: retrieve documents, build context, run prompt + LLM, and return answer + source docs.
+
+    Args:
+        question (str): The user's question.
+
+    Returns:
+        Tuple[str, List[Document]]: The answer and the list of source documents used.
     """
     db, llm, prompt, parser = get_rag_components()
 
