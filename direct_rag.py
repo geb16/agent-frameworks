@@ -1,6 +1,5 @@
 # DIRECT RAG (No Frameworks)
 import chromadb
-from chromadb.config import Settings
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
@@ -26,7 +25,11 @@ def rag(query):
         n_results=3
     )
 
-    context = "\n\n".join(results["documents"][0])
+    documents = results.get("documents")
+    if documents and documents[0]:
+        context = "\n\n".join(documents[0])
+    else:
+        context = "No relevant documents found."
 
     prompt = f"""
 Answer using ONLY this context.
