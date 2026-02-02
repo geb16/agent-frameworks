@@ -1,0 +1,119 @@
+COMPANY POLICIES
+Effective date: 2025-01-01
+Last updated: 2025-01-01
+
+SCOPE
+These policies apply to all purchases made from our website and authorized channels, unless otherwise stated.
+
+DEFINITIONS
+- "Business days": Monday–Friday, excluding federal holidays.
+- "Original payment method": The payment instrument used at checkout.
+- "RMA": Return Merchandise Authorization number issued by Support.
+
+CONTACT
+Email: support@example.com
+Phone: +1-555-0100
+Address: 123 Example Ave, Suite 100, Anytown, ST, 00000
+
+SHIPPING POLICY
+- Processing time: 1–2 business days.
+- Transit time (domestic): 3–7 business days; (international): 7–21 business days.
+- Tracking: Provided by email upon shipment.
+- Shipping fees: Calculated at checkout and non-refundable unless we made an error.
+- Risk of loss: Transfers upon carrier acceptance. We will assist with carrier claims.
+
+RETURNS AND REFUNDS POLICY
+Eligibility
+- Return window: 30 calendar days from delivery date (receipt by you).
+- Condition: Unused, in original packaging with all accessories and manuals.
+- Non-returnable items: Gift cards, downloadable/digital goods after download/access, perishable items, customized products, and items marked “Final Sale.”
+- Proof of purchase required.
+
+Process
+1) Request RMA: Contact support with order number and reason for return.
+2) Pack: Include RMA in the box; use original packaging when possible.
+3) Ship: Use the provided label (if applicable). Return shipping cost:
+   - Defective/incorrect item: Paid by us.
+   - All other returns: Paid by you.
+4) Inspection: 2–3 business days after receipt at our facility.
+
+Refunds
+- Method: Issued to the original payment method only.
+- Timing: We initiate within 2 business days after inspection; your bank may take 5–10 additional business days to post.
+- Amount: Product price minus shipping fees and applicable restocking fees.
+- Restocking fee: 10% for opened/used items in resellable condition; waived for defects or incorrect shipments.
+- Store credit: Available upon request instead of a refund.
+- Exchanges: Subject to stock availability; otherwise processed as refund then new order.
+
+Late or Missing Refunds
+- If not received after 12 business days from our confirmation, contact your bank first, then contact support with your RMA and bank reference.
+
+CANCELLATIONS
+- Before shipment: Free cancellation; refund in full to original payment method.
+- After shipment: Treat as a return under the Returns and Refunds Policy.
+- Subscriptions (if applicable): Cancel anytime; unused prepaid periods are not prorated unless required by law.
+
+WARRANTY
+- Standard warranty: 1 year from delivery against defects in materials and workmanship.
+- Remedies: Repair, replacement, or refund at our discretion.
+- Exclusions: Damage due to misuse, accidents, unauthorized modifications, normal wear and tear, and consumables.
+- Warranty claims require proof of purchase and may require diagnostic information.
+
+PRICING AND PROMOTIONS
+- Prices and promotions are subject to change without notice.
+- Price adjustments: Not offered on prior purchases unless required by law.
+- One promo code per order unless explicitly stated.
+
+PAYMENT METHODS
+- Accepted: Major credit/debit cards, PayPal, and select digital wallets.
+- Charges: Applied at shipment (or at purchase for digital goods and preorders where indicated).
+- Fraud prevention: Orders may be held for verification.
+
+DIGITAL GOODS
+- Access: Delivered by email or account portal.
+- Refunds: Not eligible after download/access unless the product is defective or inaccessible due to our systems.
+- License: Personal, non-transferable, subject to the End User License Agreement.
+
+PRIVACY
+- Data collected: Contact info, order details, device/IP info, and support communications.
+- Use: To fulfill orders, provide support, prevent fraud, and improve services.
+- Retention: Order records retained for up to 7 years for legal/accounting; support logs for 24 months; analytics for up to 13 months.
+- Rights: Access, correction, deletion, and portability where applicable.
+- Requests: Email privacy@example.com. Verification required before action.
+- Cookies: See our Cookie Notice for details on preferences and analytics.
+
+SECURITY
+- Protections: Encryption in transit (TLS 1.2+), restricted access, periodic audits, and vulnerability management.
+- Incident response: We notify affected users without undue delay as required by law.
+
+ACCESSIBILITY
+- Commitment: We aim to conform to WCAG 2.1 AA. For assistance or feedback, email accessibility@example.com.
+
+SUPPORT AND SLAS
+- Hours: 9am–6pm local time, Monday–Friday.
+- First response: Within 1 business day.
+- Critical incidents (service down): Target response within 2 hours; updates every 4 hours until resolution.
+
+ACCEPTABLE USE
+- Prohibited: Illegal activities, infringement, abuse, harassment, circumvention of security, reverse engineering where prohibited, and high-risk use without written consent.
+
+DATA DELETION
+- Account deletion: Upon verified request, we delete personal data not required for legal compliance within 30 days.
+- Backups: Purged on rolling cycles within 35 days.
+
+INTERNATIONAL ORDERS
+- Duties/taxes: May apply and are the customer’s responsibility unless stated otherwise.
+- Restrictions: Certain products may not ship to some regions due to regulations.
+
+CHANGES TO THESE POLICIES
+We may update these policies from time to time. Material changes will be notified on our website with a new effective date.
+
+GOVERNING LAW
+These terms are governed by the laws of the state/province of our principal place of business, without regard to conflict of laws.
+
+FAQ HIGHLIGHTS (for quick retrieval)
+- Refund window: 30 days from delivery.
+- Refund method: Original payment method; initiate within 2 business days post-inspection; bank posting 5–10 business days.
+- Shipping fees: Non-refundable unless our error.
+- Restocking: 10% for opened items, waived for defects/incorrect shipments.
+- Digital goods: Non-refundable after access, except for defects/inaccessibility.
